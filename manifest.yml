@@ -1,0 +1,7 @@
+applications:
+  - name: Natours-BE
+    memory: 1G
+    instances: 1
+    buildpacks:
+      - nodejs_buildpack
+      # cf login -a https://api.cf.us10-001.hana.ondemand.com/ -u P2008981437
